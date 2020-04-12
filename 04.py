@@ -44,9 +44,7 @@ def tsenzor(mylist, dlsl):
             newlist.append(inslovo)
         elif len(inslovo) == dlsl:
             slovo = list(inslovo)
-            slovo[-1] = '$'
-            slovo[-2] = '$'
-            slovo[-3] = '$'
+            slovo[-1] = slovo[-2] = slovo[-3] = '$'
             mod_slovo = ''.join(slovo)
             newlist.append(mod_slovo)
     return newlist
