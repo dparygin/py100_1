@@ -65,7 +65,7 @@ mb *= 100
 fulldata = mb + db
 # dict = {'Список':0, 'Козерог': 1,'Водолей': 2,'Рыбы': 3,'Овен': 4,'Телец': 5,'Близнецы': 6,'Рак': 7,'Лев': 8,'Дева': 9,'Весы': 10,'Скорпион': 11,'Стрелец': 12}
 # for i, d in enumerate (dict):
-#     if fulldata > (i*10) + 22 and fulldata <= ((i+1)*10) + 21:
+#     if fulldata > (i*10) + 22) and fulldata <= ((i+1)*10) + 21:
 #         print(d, i)
 
 
@@ -98,3 +98,8 @@ elif 222 < fulldata <= 321:
 
 #
 # Дано вещественное число A и целое число N (> 0). Найти A в степени N: AN = A·A··A (числа A перемножаются N раз) .
+
+A = float(input('Enter A: '))
+n = int(input('Enter n: '))
+A = A ** n
+print(A)
