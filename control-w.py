@@ -82,7 +82,7 @@ elif 1022 < fulldata <= 1121:
     print('Весы')
 elif 1122 < fulldata <= 1221:
     print('Стрелец')
-elif 1222 < fulldata <= 121:
+elif 1222 < fulldata or fulldata <= 121:
     print('Козерог')
 elif 122 < fulldata <= 221:
     print('Водолей')
