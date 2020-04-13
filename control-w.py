@@ -35,11 +35,9 @@ if len(lac) == 6:
     for w1 in lac[0:3]:
         w1 = int(w1)
         sum_w1 += w1
-    print(sum_w1)
     for w2 in lac[3:6]:
         w2 = int(w2)
         sum_w2 += w2
-    print(sum_w2)
     if sum_w1 == sum_w2:
         print('Счастливое')
     else:
